@@ -57,20 +57,6 @@
          ]
       },
       {
-         "tag":"noanswer",
-         "patterns":[
-            
-         ],
-         "responses":[
-            "Sorry, can't understand you",
-            "Please give me more info",
-            "Not sure I understand"
-         ],
-         "context":[
-            ""
-         ]
-      },
-      {
          "tag":"options",
          "patterns":[
             "How you could help me?",
@@ -119,6 +105,12 @@
          "context":[
             ""
          ]
-      }
+      },
+      {
+         "tag": "diff_classreg",
+         "patterns": ["What is the difference between classification and regression?", "Difference between classification and regression", "Classification and regression"],
+         "responses": ["Classification is used to produce discrete results, classification is used to classify data into some specific categories. For example classifying e-mails into spam and non-spam categories. Whereas, we use regression analysis when we are dealing with continuous data, for example predicting stock prices at a certain point of time."],
+         "context": [""]
+     }
    ]
 }
